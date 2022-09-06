@@ -13,6 +13,7 @@ int main(){
     area=l*b;
     cout<<"Rectangle measurements";
     cout<<"\nArea of the Rectangle= "<<area;
+    cout<<"\nThank You";
 
     return 0;
     }
