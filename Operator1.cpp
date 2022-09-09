@@ -15,7 +15,7 @@ int main(){
 
     cout<<"Rectangle measurements";
     cout<<"\nArea of the Rectangle= "<<area;
-    cout<<"\nPerimeter of the Rectangle= \n"<<perimeter;
+    cout<<"\nPerimeter of the Rectangle= \n\n"<<perimeter;
     
     return 0;
     }
