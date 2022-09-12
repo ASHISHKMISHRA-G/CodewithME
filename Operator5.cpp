@@ -18,6 +18,5 @@ int main(){
     else{
         cout<<"not true!!";
     }
-
     return 0;
 }
