@@ -17,6 +17,7 @@ int main(){
 
     if(cost>1000){
         cout<<"\nDiscounted_amount= "<<cost*10/100;
+        cout<<"\nTotal amount after discount= "<<cost-(cost*10/100);
     }
     else{
         cout<<"\nNot Discount Applied!!";
