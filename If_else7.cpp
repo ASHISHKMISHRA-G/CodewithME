@@ -6,6 +6,9 @@
 // percentage of class attended
 // Is student is allowed to sit in exam or not.
 
+// Modify the above question to allow student to sit if he/she has medical cause. 
+// Ask user if he/she has medical cause or not ( 'Y' or 'N' ) and print accordingly.
+
 #include<iostream>
 using namespace std;
 
@@ -23,7 +26,15 @@ int main(){
         cout<<"You can give exams!!";
     }
     else{
-        cout<<"You cannot sit in examsXX";
+        char medical_cause,Y,N;
+        cout<<"Do you have any medical cause?(Y/N)= ";
+        cin>>medical_cause;
+        if(medical_cause=Y){
+            cout<<"You can sit in exams";
+        }
+        else{
+            cout<<"You cannot sit in examsXX";
+        }    
     }
 
     return 0;
