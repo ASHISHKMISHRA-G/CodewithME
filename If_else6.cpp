@@ -6,7 +6,6 @@ using namespace std;
 
 int main(){
     int age1,age2,age3;
-
     cout<<"Enter age1= ";
     cin>>age1;
     cout<<"Enter age2= ";
